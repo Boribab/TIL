@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>table2</title>
+    <style>
+    table, th, td {
+      border = 1px solid black;
+      border-collapse: collapse;
+    }
+    td, th{
+      padding: 15px;
+    }
+    </style>
+  </head>
+  <body>
+    <img src="bg.jpg" width = "250" height = "150" alt="홈으로 가기">
+    <table>
+      <table border ="1">
+        <caption>
+        요한도라 객실
+        </caption>
+        <thead>
+          <th>방 이름</th>
+          <th>대상</th>
+          <th>크기</th>
+          <th>가격</th>
+        </thead>
+        <tbody>
+        <tr>
+          <th>유채방</th>
+          <td>여성 도미토리</td>
+          <td rowspan="3">4인실</td>
+          <td rowspan="4">1인 20,000원</td>
+        </tr>
+        <tr>
+          <th rowspan="2">동백방</th>
+          <td>동성 도미토리</td>
+        </tr>
+        <tr>
+          <td>가족 1팀</td>
+        </tr>
+        <tr>
+          <th>천혜향방</th>
+          <td>-</td>
+          <td>2인실</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <th colspan="4">바깥채 전체를 렌트합니다</th>
+        </tfoot>
+    </table>
+  </body>
+</html>
